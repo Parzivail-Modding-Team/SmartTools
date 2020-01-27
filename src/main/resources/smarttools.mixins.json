@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.parzivail.smarttools.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+	"MixinMinecraftClient"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

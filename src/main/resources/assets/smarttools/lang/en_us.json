@@ -1,0 +1,7 @@
+{
+  "key.smarttools.category": "SmartTools",
+  "key.smarttools.swap_tool": "Toggle Auto Swap",
+  "smarttools.swap_tool_enabled": "Auto Swap enabled",
+  "smarttools.swap_tool_disabled": "Auto Swap disabled",
+  "smarttools.switching_tool": "Using %s"
+}

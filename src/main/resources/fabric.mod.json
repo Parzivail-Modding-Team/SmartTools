@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "smarttools",
+  "version": "${version}",
+  "name": "SmartTools",
+  "description": "Automatic tool swapping, smart torch placement, and more.",
+  "authors": [
+	"Me!"
+  ],
+  "contact": {
+	"homepage": "https://github.com/Parzivail-Modding-Team/SmartTools",
+	"sources": "https://github.com/Parzivail-Modding-Team/SmartTools"
+  },
+  "license": "MIT",
+  "icon": "assets/smarttools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"client": [
+	  "com.parzivail.smarttools.SmartTools"
+	]
+  },
+  "mixins": [
+	"smarttools.mixins.json"
+  ],
+  "depends": {
+	"fabricloader": ">=0.7.2",
+	"fabric": "*",
+	"minecraft": "1.15.x"
+  },
+  "suggests": {
+	"flamingo": "*"
+  }
+}
