@@ -1,16 +1,13 @@
-# Fabric Example Mod
+# SmartTools
 
-## Setup
+Automatic tool swapping, smart torch placement, and more.
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+## Torch placement
 
-```
-./gradlew idea
-```
+With a tool in your main hand and torches in your hotbar, you can sneak-right-click a block to place a torch.
 
-## License
+## Auto Swap
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Toggle keybind: `h`
+
+With Auto Swap enabled, as soon as you attempt to break a block, the tool in your hotbar which provides the quickest break will be selected.
